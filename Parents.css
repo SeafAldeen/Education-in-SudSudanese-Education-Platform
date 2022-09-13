@@ -1,0 +1,290 @@
+*{
+  margin : 0 ;
+  padding : 0 ;
+  box-sizing: border-box ;
+}
+
+
+body {
+    width : 100% ;
+    background : #fff ;
+    direction: rtl ;
+    position: relative ;
+}
+
+.container {
+  width : 100% ;
+  background: #fff ;
+}
+
+
+/* Start header */
+ .header{
+  width : 100% ;
+  padding : 5px ;
+  display : flex ;
+  justify-content : space-between ;
+  align-items : center ;
+  background: #fff ;
+  position : fixed ;
+  top: 0;
+  z-index : 3 ;
+}
+
+ .header i {
+  font-size : 24px ;
+  padding : 10px ;
+  color : #cb4154 ;
+}
+
+ .header img {
+  width : 100px ; 
+}
+
+/* End header */
+
+.nav-side{
+  width: 250px ;
+  height: 100%; 
+  background: #fff ;
+  position: fixed ;
+  top : 0 ;
+  right: 0 ;
+  transition: 2s ease ;
+  display: none;
+  z-index: 20  ;
+  
+}
+
+
+.nav-side img {
+  width : 50px ;
+  float : left ;
+  
+  
+}
+
+.nav-links {
+  width : 100% ;
+  height : 100% ;
+  position : relative ;
+  margin-top: 80px 
+
+} 
+
+
+.nav-links ul li{
+  height : 100% ;
+  list-style : none ;
+  margin : 10px  ;
+  font-weight: 500 ;
+  color : #777 ;
+  font-size : 18px ;
+  
+}
+
+.nav-links ul li .ion{
+  display : flex ;
+  justify-content : space-between ;
+}
+
+.nav-links ul li span {
+  transform : rotate(270deg );
+  transition : 0.5s ease ;
+}
+
+.nav-links ul li a {
+  text-decoration : none ;
+  color : #777 ;
+}
+
+.nav-links ul li ul {
+ display : none ;
+  transition : 0.5s ease  ;
+}
+
+
+.nav-links ul li:hover {
+  color : #cb4154 ;
+}
+
+.nav-links ul li:hover ul {
+  display : block ;
+  padding : 10px ;
+  
+}
+
+.nav-links ul li:hover span {
+  transform : rotate(90deg);
+}
+
+
+
+
+.container .h1-I {
+  padding : 10px ;
+}
+
+/* Start contend head  */
+.content-head {
+  margin-top : 70px ;
+  color : #fff ;
+  background : linear-gradient(to right,  #1D2FFD,  #CED0E2);
+}
+
+.content-head img {
+  width : 100% ;
+  height: 200px ;
+}
+
+.content-head h1 {
+  padding : 10px ;
+}
+
+.content-head p {
+  padding : 10px ;
+}
+
+/* End content-head  */
+
+
+.p-1 {
+  padding : 20px ;
+  color : #777 ;
+}
+
+h4 {
+  color : #54555A ;
+  padding : 10px ;
+}
+
+
+
+.ul-content {
+  background: #ddd ;
+  margin : 20px ;
+  padding : 20px ;
+  border-radius : 5px ;
+}
+
+.ul-content li {
+  padding : 10px ;
+}
+
+.ul-content li a {
+  text-decoration : none ;
+  color : #cb4154 ;
+}
+
+.box {
+  border: 1px solid #ddd ;
+  border-radius : 5px ;
+  margin : 20px ;
+  padding : 10px ;
+}
+
+.box h5 {
+  padding : 10px ;
+  color : #555 ;
+}
+
+.box p {
+  color : #777 ;
+  padding : 10px ;
+  
+}
+
+.box button{
+  
+  padding : 5px ;
+  background : #fff ;
+  border: 1px solid #ddd ;
+  border-radius : 5px ;
+}
+
+.p-butom {
+  text-align : center ;
+  margin-bottom : 20px ;
+  font-size : 18px ;
+  color : #777 ;
+}
+
+
+/* Start footer */
+.footer{
+  width : 100% ;
+  background : #ddd ;
+  position : relative ;
+  
+}
+
+.Support{
+  width : 100% ;
+  padding : 10px ;
+  display: flex ;
+  justify-content: space-around ;
+ 
+}
+
+.Support img {
+  width : 100px ;
+  height: 25px ;
+}
+
+.map {
+  margin-top : 0px ;
+  padding : 20px ;
+  display : flex ;
+  flex-wrap: wrap ;
+ 
+}
+
+.map h6 {
+  font-size : 14px ;
+  padding : 10px ;
+}
+
+.footer .img {
+  display: flex ;
+  justify-content : center ;
+}
+
+.footer .img img {
+  width : 100px ;
+ margin : 10px ;
+} 
+
+ .Media {
+  display : flex ;
+  justify-content : center ;
+  
+  
+}
+
+.Media a {
+  color: #777 ;
+  margin-bottom : 20px ;
+  padding : 10px  ;
+  margin-left : 15px ;
+}
+
+.Media a i {
+  font-size : 25px ;
+}
+
+
+.footer .clarification {
+  padding : 10px ;
+}
+
+.footer .clarification p {
+  text-align : center ;
+  font-size : 15px ;
+  color : #777 ;
+}
+
+.footer .clarification p span {
+  font-weight: bold ;
+}
+
+/* End footer  */
